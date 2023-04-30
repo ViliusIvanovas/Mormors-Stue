@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: mormors-stue.github.io
+      url: mormorsstue.github.io
     runs-on: ubuntu-latest
     needs: build
     steps:
